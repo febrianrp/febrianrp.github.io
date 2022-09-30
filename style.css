@@ -1,0 +1,123 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+.hero{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: silver;
+}
+nav{
+    display: flex;
+    width: 84%;
+    margin: auto;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+.aku{
+    font-size: 36px;
+}
+span{
+    color: red;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+nav ul li a:hover{
+    color: red;
+}
+.detel{
+    margin-left: 8%;
+    margin-top: 15%;
+}
+.detel h1{
+    font-size: 50px;
+    color: #212121;
+    margin-bottom: 20px;
+}
+.detel p{
+    color: #555;
+    line-height: 22px;
+}
+.img{
+    width: 30%;
+    height: 70%;
+    position: absolute;
+    bottom: 0;
+    left: 750px;
+}
+
+.img img{
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    transition: bottom 1s, left 1s;
+}
+.img:hover .satu{
+    bottom: 40px;
+}
+.img:hover .dua{
+    left: 45%;
+}
+.poto{
+    width: 29%;
+    height: 80%;
+    position: absolute;
+    bottom: 0;
+    left: 110px;
+}
+.hai{
+    font-size: 40px;
+    text-transform: capitalize;
+    border-bottom: 3px solid red;
+    margin-right: 89px;
+}
+.aku2{
+    margin-left: 650px;
+    margin-top: 9%;
+}
+.aku2{
+    font-size: 30px;
+    color: #212121;
+    margin-bottom: 20px;
+    color: #555;
+    line-height: 42px;
+}
+.hobi2{
+    font-size: 35px;
+    text-transform: capitalize;
+    border-bottom: 3px solid red;
+    margin-right: 300px;
+    margin-left: 300px;
+    text-align: center;
+    position: relative;
+    top: 50px;
+}
+.gambar1 {
+    width: 22%;
+    height: 48%;
+    position: absolute;
+    bottom: 0px;
+    left: 290px;
+    top: 37%;
+}
+.gambar2 {
+    width: 22%;
+    height: 48%;
+    position:absolute;
+    bottom: 0px;
+    left: 775px;
+    top: 37%
+}
